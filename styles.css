@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: linear-gradient(#65d3e1, #31646b);
+  background-image: linear-gradient(#93b5db, #90A5BC);
   background-attachment: fixed;
 }
 
@@ -14,7 +14,7 @@ nav{
 }
 
 header{
-  background-color:  #65d3e1;
+  background-color:  #93b5db;
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
@@ -30,7 +30,7 @@ header{
 }
 
 header.scrolled{
-  background-color: #31646b;
+  background-color: #90A5BC;
   color: white;
   box-shadow: none;
   border-radius: 0px 0px 20px 20px;
@@ -41,7 +41,7 @@ header.scrolled{
 }
 
 header.scrolled li a{
-  background-color: #31646b;
+  background-color: #90A5BC;
   color: white;
   box-shadow: none;
 }
@@ -97,7 +97,7 @@ header.scrolled button{
   color: black;
   padding: 10px 20px;
   border-radius: 15px;
-  background-color: #65d3e1;
+  background-color: #93b5db;
   border: solid;
   box-shadow: 1px 1px;
 }
@@ -110,7 +110,7 @@ header.scrolled button{
 .nav__buttons button{
   padding:  10px 20px;
   border-radius: 201px;
-  background-color: #65d3e1;
+  background-color: #93b5db;
   transition: 0.3s;
   margin: 0px 20px;
 
@@ -128,7 +128,7 @@ header.scrolled button{
 }
 
 section{
-  background-color: #65d3e1;
+  background-color: #93b5db;
   padding: 40px 30px;
   margin: 40px 20px;
   border-radius: 20px;
