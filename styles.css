@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  font-family: "Montserrat", serif;
+}
+
+body{
+  background-image: linear-gradient(#65d3e1, #31646b);
+  background-attachment: fixed;
+}
+
+nav{
+  flex-wrap: wrap;
+}
+
+header{
+  background-color:  #65d3e1;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 40px 20px;
+  position: sticky;
+  top: 0;
+  transition: 0.5s;
+  box-shadow: 5px 5px 5px;
+  overflow: scroll;
+  border: solid;
+}
+
+header.scrolled{
+  background-color: #31646b;
+  color: white;
+  box-shadow: none;
+  border-radius: 0px 0px 20px 20px;
+  border: none;
+  background: rgba(49, 100, 107, 0.7);
+  width: 80%;
+  left: 10% 
+}
+
+header.scrolled li a{
+  background-color: #31646b;
+  color: white;
+  box-shadow: none;
+}
+
+header.scrolled li a:hover{
+  background-color: white;
+  color: black;
+  
+}
+
+header.scrolled p{
+ display: none;
+}
+
+
+header.scrolled button{
+  background-color: white;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 50px;
+}
+
+.nav__name{
+  display: flex;
+  align-items: center;
+}
+
+.nav__name h1{
+  font-size: 50px;
+}
+
+.nav__name img{
+  width: 175px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.nav__links{
+  list-style: none;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px;
+  
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: #65d3e1;
+  border: solid;
+  box-shadow: 1px 1px;
+}
+
+.nav__links li a:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+.nav__buttons button{
+  padding:  10px 20px;
+  border-radius: 201px;
+  background-color: #65d3e1;
+  transition: 0.3s;
+  margin: 0px 20px;
+
+}
+.nav__buttons button:hover{
+  cursor: pointer;
+  font-size: 20px;
+}
+.nav__buttons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 30pxpx;
+
+}
+
+section{
+  background-color: #65d3e1;
+  padding: 40px 30px;
+  margin: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px;
+  border: solid;
+  justify-content: center;
+}
+
+.section__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__item p{
+  width: 800px;
+
+}
+
+#about__me{
+  text-align: center;
+}
+
+.section__item div:last-child{
+  margin-left: auto;
+  margin-right: 100px;
+  width: 300px;
+}
+
+.section__item img{
+  background-color: white;
+  border: solid;
+  padding: 25px;
+  box-shadow: 5px 5px 5px;
+  border-radius: 30px;
+  margin-right: 40px;
+  width: 300px;
+}
+
+.subtitle_section{
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.temp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logos img{
+  width: 150px;
+}
+
+#education{
+  background-color: white;
+  color: black;
+  border-color: black;
+
+}
+
+#experience{
+  background-color: white;
+  color: black;
+  border-color: black;
+
+}
+
+#about{
+  background-color: white;
+  color: black;
+  border-color: black;
+
+}
+
+#projects{
+  background-color: white;
+  color: black;
+  border-color: black;
+
+}
+
+#skills{
+  background-color: white;
+  color: black;
+  border-color: black;
+
+}
+
+
+
+
