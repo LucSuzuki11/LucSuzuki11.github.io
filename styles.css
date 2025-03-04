@@ -9,6 +9,10 @@ body{
   background-attachment: fixed;
 }
 
+p{
+font-size: 17px;
+}
+
 nav{
   flex-wrap: wrap;
 }
@@ -27,6 +31,7 @@ header{
   box-shadow: 5px 5px 5px;
   overflow: scroll;
   border: solid;
+  flex-wrap: wrap;
 }
 
 header.scrolled{
@@ -38,12 +43,14 @@ header.scrolled{
   background: rgba(49, 100, 107, 0.7);
   width: 80%;
   left: 10% 
+  
 }
 
 header.scrolled li a{
   background-color: #90A5BC;
   color: white;
   box-shadow: none;
+  
 }
 
 header.scrolled li a:hover{
@@ -83,6 +90,7 @@ header.scrolled button{
 
 .nav__links{
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .nav__links li{
@@ -100,6 +108,7 @@ header.scrolled button{
   background-color: #93b5db;
   border: solid;
   box-shadow: 1px 1px;
+  margin: 10px 0px;
 }
 
 .nav__links li a:hover{
@@ -113,6 +122,7 @@ header.scrolled button{
   background-color: #93b5db;
   transition: 0.3s;
   margin: 0px 20px;
+  border: solid;
 
 }
 .nav__buttons button:hover{
@@ -141,11 +151,11 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .section__item p{
   width: 800px;
-
 }
 
 #about__me{
@@ -184,40 +194,83 @@ section{
   width: 150px;
 }
 
-#education{
+#nav__scrolled__links{
   background-color: white;
   color: black;
   border-color: black;
 
 }
 
-#experience{
-  background-color: white;
-  color: black;
-  border-color: black;
+@media (max-width: 1000px){
+  
+  .nav__buttons{
+    flex-wrap: wrap;
+  }
+
+  .nav__links li {
+    flex-wrap: wrap;
+    height: 45px;
+    margin: 5px 0px;
+  }
+
+  .nav__links li a{
+    border: solid;
+    margin: 0px 0px;
+  }
+
+  header{
+    text-align: center;
+    flex-wrap: nowrap;
+  }
+
+  header img{
+    display: none;
+  }
+
+ .nav__nameElement{
+  justify-content: center;
+  margin-right: 10px;
+ }
+
+ .section__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+
+ .section__item img{
+  width: 150px;
+ }
+
+ .section__item h3{
+  display: none;
+ }
+
+ .section__item p{
+
+  width: 75vw;
+  text-align: center;
+ }
+
+ #skills{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+ }
+ .subtitle_section{
+  display: flex;
+  text-align: left;
+  width: 50vw;
 
 }
 
-#about{
-  background-color: white;
-  color: black;
-  border-color: black;
 
+
+  
 }
 
-#projects{
-  background-color: white;
-  color: black;
-  border-color: black;
-
-}
-
-#skills{
-  background-color: white;
-  color: black;
-  border-color: black;
-
-}
 
 
 
